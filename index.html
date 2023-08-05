@@ -13,7 +13,10 @@
 <body>
   <div class="input-container" role="main">
     <div class="image-container">
-      <img src="./assets/images/illustration-sign-up-mobile.svg" alt="illustration-sign-up-mobile">
+      <picture>
+        <source media="(min-width: 1440px)" srcset="./assets/images/illustration-sign-up-desktop.svg">
+        <img src="./assets/images/illustration-sign-up-mobile.svg" alt="illustration-sign-up-mobile">
+      </picture>
     </div>
     <div class="main">
       <div class="title-section">
@@ -39,13 +42,11 @@
         </ul>
       </div>
     
-      <div class="form">
-        <form action="success.html">
-          <p class="email-input-title">Email address</p>
-          <input type="email" name="email" id="email-input" placeholder="email@company.com">
-          <input type="submit" value="Subscribe to monthly newsletter">
-        </form>
-      </div>
+      <form action="success.html">
+        <p class="email-input-title">Email address</p>
+        <input type="email" name="email" id="email-input" placeholder="email@company.com">
+        <input type="submit" value="Subscribe to monthly newsletter">
+      </form>
     </div>
   </div>
 </body>
