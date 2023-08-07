@@ -111,6 +111,11 @@ body {
     flex-direction: column;
 }
 
+.success-container div {
+    margin: auto;
+    padding-bottom: 18rem;
+}
+
 .success-container img {
     margin-bottom: 1rem;
     width: min-content;
@@ -139,10 +144,8 @@ body {
     border-radius: 0.500rem;
     font-size: 1.05rem;
     align-self: center;
-    margin-bottom: 2.5rem;
-    width: 90%;
-    position: absolute;
-    bottom: 0;
+    margin-bottom: 3rem;
+    width: 100%;
 }
 
 @media(min-width: 1440px){
@@ -155,10 +158,14 @@ body {
     
     .success-container {
         background-color: aliceblue;
-        height: 50%;
+        height: fit-content;
         width: 30%;
         border-radius: 2rem;
-        padding: 3rem 2rem 0rem 2rem;
+        padding: 2rem 3rem 0rem 2rem;
+    }
+
+    .success-container div {
+        padding-bottom: 2rem;
     }
 
     .success-container img {
@@ -167,10 +174,6 @@ body {
 
     .success-container .success-title {
         font-size: 3.2rem;
-    }
-
-    .success-container .dismiss-button {
-
     }
 
     .input-container {
