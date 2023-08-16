@@ -9,6 +9,7 @@
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
 
   <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
 </head>
 <body>
   <div class="input-container" role="main">
@@ -42,9 +43,12 @@
         </ul>
       </div>
     
-      <form action="success.html">
-        <p class="email-input-title">Email address</p>
-        <input type="email" name="email" id="email-input" placeholder="email@company.com">
+      <form id="form" onsubmit="return checkValidEmail()" action="./success.html">
+        <div>
+          <p class="email-input-title">Email address</p>
+          <p class="email-invalid-text" id="email-invalid-text">Valid email required</p>
+        </div>
+        <input type="text" name="email" id="email-input" placeholder="email@company.com">
         <input type="submit" value="Subscribe to monthly newsletter">
       </form>
     </div>
