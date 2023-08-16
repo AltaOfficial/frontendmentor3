@@ -111,7 +111,7 @@ button:hover,input[type=submit]:hover {
     font-size: 1rem;
 }
 
-.input-container form input[name=email] {
+.input-container form input[name=email]:focus {
     outline: none;
     border-color: inherit;
 }
