@@ -15,8 +15,6 @@ This is a solution to the [Newsletter sign-up form with success message challeng
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -33,12 +31,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/screenshot.png)
+![](./assets/images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/AltaOfficial/frontendmentor3)
+- Live Site URL: [Netlify](https://heroic-melba-920000.netlify.app)
 
 ## My process
 
@@ -48,6 +46,7 @@ Users should be able to:
 - Stuctured CSS for desktop
 - Added interactive animations
 - Programmed javascript to handle email validation
+- Edited README
 
 ### Built with
 
